@@ -1,3 +1,90 @@
-.dd{
-    margin-left: 10px;
+.inputbox,
+.Submitinputbox {
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  box-sizing: border-box; 
+  font-weight: bold;
 }
+
+.inputbox {
+  background-color: #fff; 
+}
+
+.Submitinputbox {
+  background-color: #4CAF50; 
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.Submitinputbox:hover {
+  background-color: #3e8e41; 
+}
+
+.td-button{
+    padding: 10px;
+    font-weight: bold;
+    border: 1px solid #ddd;  
+}
+  
+.td-text{
+    height: 50px;
+    width: 800%;
+    padding: 10px;
+    font-weight: bold;
+    border: 1px solid #ddd; 
+    font-size: 20px;
+}
+
+.button-Edit,
+.button-Remove {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-Edit{
+    height: 30px;
+    width: 100px;
+    background-color: #4CAF50;
+    border: 1px solid #4CAF50;  
+    color: #ffffff; 
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.button-Edit:hover{
+    height: 30px;
+    width: 100px;
+    background-color: #40a401;
+    border: 1px solid #439b00;  
+    color: #ffffff; 
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.button-Remove{
+  margin-top: 10px;
+  height: 30px;
+  width: 100px;
+  background-color: #c90700;
+  border: 1px solid #c90700;  
+  color: #ffffff; 
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.button-Remove:hover{
+    height: 30px;
+    width: 100px;
+    background-color: #750000;
+    border: 1px solid #ff0000;  
+    color: #ffffff; 
+    border-radius: 10px;
+    font-weight: bold;
+  }
